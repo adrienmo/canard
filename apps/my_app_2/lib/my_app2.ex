@@ -15,4 +15,6 @@ defmodule MyApp2 do
   def hello do 
     MyApp1.hello()
   end
+
+  def hello2, do: MyApp1.hello2()
 end

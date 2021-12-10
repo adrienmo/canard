@@ -15,4 +15,6 @@ defmodule MyApp1 do
   def hello do
     :world
   end
+
+  def hello2, do: :world2
 end
