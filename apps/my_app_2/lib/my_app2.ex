@@ -12,7 +12,7 @@ defmodule MyApp2 do
       :world
 
   """
-  def hello do
-    :world
+  def hello do 
+    MyApp1.hello()
   end
 end
